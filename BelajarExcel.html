@@ -494,7 +494,7 @@
           const [aiResponse, setAiResponse] = useState('');
           const [isLoading, setIsLoading] = useState(false);
           const [error, setError] = useState(null);
-          const apiKey = "AIzaSyCRSpqfOD3flEVMxQ5FyzSGKQlQataJLCk"; 
+          const apiKey = "AIzaSyBDOt50DelrXlXuyUGvrSt-llEiARmQLzU"; 
           const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${apiKey}`;
           const fetchWithBackoff = async (payload, retries = 2, delay = 1000) => {
             try {
@@ -1275,4 +1275,5 @@
 </body>
 
 </html>
+
 
